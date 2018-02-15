@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59D8D32E20360BC900E868F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D8D32D20360BC900E868F2 /* AppDelegate.swift */; };
+		59D8D33020360BC900E868F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D8D32F20360BC900E868F2 /* ViewController.swift */; };
+		59D8D33320360BC900E868F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59D8D33120360BC900E868F2 /* Main.storyboard */; };
+		59D8D33620360BC900E868F2 /* directpay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 59D8D33420360BC900E868F2 /* directpay.xcdatamodeld */; };
+		59D8D33820360BC900E868F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59D8D33720360BC900E868F2 /* Assets.xcassets */; };
+		59D8D33B20360BC900E868F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59D8D33920360BC900E868F2 /* LaunchScreen.storyboard */; };
+		59D8D34620360BCA00E868F2 /* directpayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D8D34520360BCA00E868F2 /* directpayTests.swift */; };
+		59D8D35120360BCA00E868F2 /* directpayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D8D35020360BCA00E868F2 /* directpayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59D8D34220360BCA00E868F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59D8D32220360BC900E868F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59D8D32920360BC900E868F2;
+			remoteInfo = directpay;
+		};
+		59D8D34D20360BCA00E868F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59D8D32220360BC900E868F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59D8D32920360BC900E868F2;
+			remoteInfo = directpay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59D8D32A20360BC900E868F2 /* directpay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = directpay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59D8D32D20360BC900E868F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59D8D32F20360BC900E868F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59D8D33220360BC900E868F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59D8D33520360BC900E868F2 /* directpay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = directpay.xcdatamodel; sourceTree = "<group>"; };
+		59D8D33720360BC900E868F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59D8D33A20360BC900E868F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59D8D33C20360BC900E868F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59D8D34120360BCA00E868F2 /* directpayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = directpayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59D8D34520360BCA00E868F2 /* directpayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = directpayTests.swift; sourceTree = "<group>"; };
+		59D8D34720360BCA00E868F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59D8D34C20360BCA00E868F2 /* directpayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = directpayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59D8D35020360BCA00E868F2 /* directpayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = directpayUITests.swift; sourceTree = "<group>"; };
+		59D8D35220360BCA00E868F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59D8D32720360BC900E868F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59D8D33E20360BCA00E868F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59D8D34920360BCA00E868F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59D8D32120360BC900E868F2 = {
+			isa = PBXGroup;
+			children = (
+				59D8D32C20360BC900E868F2 /* directpay */,
+				59D8D34420360BCA00E868F2 /* directpayTests */,
+				59D8D34F20360BCA00E868F2 /* directpayUITests */,
+				59D8D32B20360BC900E868F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59D8D32B20360BC900E868F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59D8D32A20360BC900E868F2 /* directpay.app */,
+				59D8D34120360BCA00E868F2 /* directpayTests.xctest */,
+				59D8D34C20360BCA00E868F2 /* directpayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59D8D32C20360BC900E868F2 /* directpay */ = {
+			isa = PBXGroup;
+			children = (
+				59D8D32D20360BC900E868F2 /* AppDelegate.swift */,
+				59D8D32F20360BC900E868F2 /* ViewController.swift */,
+				59D8D33120360BC900E868F2 /* Main.storyboard */,
+				59D8D33720360BC900E868F2 /* Assets.xcassets */,
+				59D8D33920360BC900E868F2 /* LaunchScreen.storyboard */,
+				59D8D33C20360BC900E868F2 /* Info.plist */,
+				59D8D33420360BC900E868F2 /* directpay.xcdatamodeld */,
+			);
+			path = directpay;
+			sourceTree = "<group>";
+		};
+		59D8D34420360BCA00E868F2 /* directpayTests */ = {
+			isa = PBXGroup;
+			children = (
+				59D8D34520360BCA00E868F2 /* directpayTests.swift */,
+				59D8D34720360BCA00E868F2 /* Info.plist */,
+			);
+			path = directpayTests;
+			sourceTree = "<group>";
+		};
+		59D8D34F20360BCA00E868F2 /* directpayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59D8D35020360BCA00E868F2 /* directpayUITests.swift */,
+				59D8D35220360BCA00E868F2 /* Info.plist */,
+			);
+			path = directpayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59D8D32920360BC900E868F2 /* directpay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59D8D35520360BCA00E868F2 /* Build configuration list for PBXNativeTarget "directpay" */;
+			buildPhases = (
+				59D8D32620360BC900E868F2 /* Sources */,
+				59D8D32720360BC900E868F2 /* Frameworks */,
+				59D8D32820360BC900E868F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = directpay;
+			productName = directpay;
+			productReference = 59D8D32A20360BC900E868F2 /* directpay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59D8D34020360BCA00E868F2 /* directpayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59D8D35820360BCA00E868F2 /* Build configuration list for PBXNativeTarget "directpayTests" */;
+			buildPhases = (
+				59D8D33D20360BCA00E868F2 /* Sources */,
+				59D8D33E20360BCA00E868F2 /* Frameworks */,
+				59D8D33F20360BCA00E868F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59D8D34320360BCA00E868F2 /* PBXTargetDependency */,
+			);
+			name = directpayTests;
+			productName = directpayTests;
+			productReference = 59D8D34120360BCA00E868F2 /* directpayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59D8D34B20360BCA00E868F2 /* directpayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59D8D35B20360BCA00E868F2 /* Build configuration list for PBXNativeTarget "directpayUITests" */;
+			buildPhases = (
+				59D8D34820360BCA00E868F2 /* Sources */,
+				59D8D34920360BCA00E868F2 /* Frameworks */,
+				59D8D34A20360BCA00E868F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59D8D34E20360BCA00E868F2 /* PBXTargetDependency */,
+			);
+			name = directpayUITests;
+			productName = directpayUITests;
+			productReference = 59D8D34C20360BCA00E868F2 /* directpayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59D8D32220360BC900E868F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = iMac3;
+				TargetAttributes = {
+					59D8D32920360BC900E868F2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					59D8D34020360BCA00E868F2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59D8D32920360BC900E868F2;
+					};
+					59D8D34B20360BCA00E868F2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59D8D32920360BC900E868F2;
+					};
+				};
+			};
+			buildConfigurationList = 59D8D32520360BC900E868F2 /* Build configuration list for PBXProject "directpay" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59D8D32120360BC900E868F2;
+			productRefGroup = 59D8D32B20360BC900E868F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59D8D32920360BC900E868F2 /* directpay */,
+				59D8D34020360BCA00E868F2 /* directpayTests */,
+				59D8D34B20360BCA00E868F2 /* directpayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59D8D32820360BC900E868F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59D8D33B20360BC900E868F2 /* LaunchScreen.storyboard in Resources */,
+				59D8D33820360BC900E868F2 /* Assets.xcassets in Resources */,
+				59D8D33320360BC900E868F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59D8D33F20360BCA00E868F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59D8D34A20360BCA00E868F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59D8D32620360BC900E868F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59D8D33020360BC900E868F2 /* ViewController.swift in Sources */,
+				59D8D32E20360BC900E868F2 /* AppDelegate.swift in Sources */,
+				59D8D33620360BC900E868F2 /* directpay.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59D8D33D20360BCA00E868F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59D8D34620360BCA00E868F2 /* directpayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59D8D34820360BCA00E868F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59D8D35120360BCA00E868F2 /* directpayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59D8D34320360BCA00E868F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59D8D32920360BC900E868F2 /* directpay */;
+			targetProxy = 59D8D34220360BCA00E868F2 /* PBXContainerItemProxy */;
+		};
+		59D8D34E20360BCA00E868F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59D8D32920360BC900E868F2 /* directpay */;
+			targetProxy = 59D8D34D20360BCA00E868F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59D8D33120360BC900E868F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59D8D33220360BC900E868F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59D8D33920360BC900E868F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59D8D33A20360BC900E868F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59D8D35320360BCA00E868F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59D8D35420360BCA00E868F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59D8D35620360BCA00E868F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8Y28RG35Z;
+				INFOPLIST_FILE = directpay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pdbtm.directpay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59D8D35720360BCA00E868F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8Y28RG35Z;
+				INFOPLIST_FILE = directpay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pdbtm.directpay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59D8D35920360BCA00E868F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8Y28RG35Z;
+				INFOPLIST_FILE = directpayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pdbtm.directpayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/directpay.app/directpay";
+			};
+			name = Debug;
+		};
+		59D8D35A20360BCA00E868F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8Y28RG35Z;
+				INFOPLIST_FILE = directpayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pdbtm.directpayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/directpay.app/directpay";
+			};
+			name = Release;
+		};
+		59D8D35C20360BCA00E868F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8Y28RG35Z;
+				INFOPLIST_FILE = directpayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pdbtm.directpayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = directpay;
+			};
+			name = Debug;
+		};
+		59D8D35D20360BCA00E868F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8Y28RG35Z;
+				INFOPLIST_FILE = directpayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pdbtm.directpayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = directpay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59D8D32520360BC900E868F2 /* Build configuration list for PBXProject "directpay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59D8D35320360BCA00E868F2 /* Debug */,
+				59D8D35420360BCA00E868F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59D8D35520360BCA00E868F2 /* Build configuration list for PBXNativeTarget "directpay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59D8D35620360BCA00E868F2 /* Debug */,
+				59D8D35720360BCA00E868F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59D8D35820360BCA00E868F2 /* Build configuration list for PBXNativeTarget "directpayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59D8D35920360BCA00E868F2 /* Debug */,
+				59D8D35A20360BCA00E868F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59D8D35B20360BCA00E868F2 /* Build configuration list for PBXNativeTarget "directpayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59D8D35C20360BCA00E868F2 /* Debug */,
+				59D8D35D20360BCA00E868F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		59D8D33420360BC900E868F2 /* directpay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				59D8D33520360BC900E868F2 /* directpay.xcdatamodel */,
+			);
+			currentVersion = 59D8D33520360BC900E868F2 /* directpay.xcdatamodel */;
+			path = directpay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 59D8D32220360BC900E868F2 /* Project object */;
+}
